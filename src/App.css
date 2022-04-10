@@ -1,0 +1,19 @@
+.App {
+    background-color: #f5efef;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    display: block;
+    height: 600px;
+    background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    border-radius: 25px;
+    box-shadow: 30px 36px 34px 15px rgba(53, 49, 49, 0.4);
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
