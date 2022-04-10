@@ -9,14 +9,15 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-       <img className="diamonds" src={diamonds} alt="" /> 
-       <header className="App-header">
+        <img className="diamonds" src={diamonds} alt="" />
+        <img className="diamonds2" src={diamonds} alt="" />
+        <header className="App-header">
           <h1>Dictionary</h1>
         </header>
         <Animation />
         <main>
-          <img className="gem" src={gem} alt="" />
           <Dictionary />
+        <img className="gem" src={gem} alt="" />
         </main>
       </div>
     </div>
