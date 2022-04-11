@@ -39,7 +39,7 @@ footer {
     height: 500px;
     width: 400px;
     z-index: 0;
-    transform: translateY(-150px) translateX(-50px);
+    transform: translateY(-50px) translateX(-50px);
 }
 
 .diamonds2 {
