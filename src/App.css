@@ -9,10 +9,12 @@
     width: 800px;
     margin: auto;
     display: block;
-    height: 100vh;
     border-radius: 25px;
     margin: 0px auto;
 }
+
+
+/*took away the max-height as the app needs to adjust when words show up*/
 
 main {
     margin-top: 2px;
@@ -25,10 +27,19 @@ h1 {
     z-index: 2;
 }
 
+footer {
+    font-size: 20px;
+    text-align: center;
+    color: #f5efef;
+    z-index: 2;
+}
+
 .diamonds {
     position: absolute;
+    height: 500px;
+    width: 400px;
     z-index: 0;
-    transform: translateY(-250px) translateX(-250px);
+    transform: translateY(-150px) translateX(-50px);
 }
 
 .diamonds2 {

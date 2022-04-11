@@ -1,0 +1,13 @@
+    .Meaning {
+        text-align: center;
+        color: #fafafa;
+    }
+    
+    p {
+        font-size: 12px;
+        font-weight: thin;
+    }
+    
+    .definition {
+        font-size: 15px;
+    }
