@@ -1,7 +1,7 @@
 import React from 'react';
 import Phonetic from './Phonetic';
 import Meaning from "./Meaning";
-import Synonyms from "./Synonyms";
+//import Synonyms from "./Synonyms";
 
 const Results = (props) => {
   if (props.results) {
