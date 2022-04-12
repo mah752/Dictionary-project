@@ -31,7 +31,7 @@ const Dictionary = () => {
         <form onSubmit={Search}>
           <input type="search" onChange={handleKeywordChange}></input>
         </form>
-        {Keyword}
+  
         <Results results={results}/>
       </div>
     </div>
