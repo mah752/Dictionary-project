@@ -9,14 +9,14 @@ const Meaning = (props) => {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <div className="definition">{definition.definition}</div>
-            <em className="example">{definition.example}</em>
-            <div className="synonyms"> 
             <p>
+            <strong>Definition: </strong>{definition.definition}
+            <br/>
+            <strong>Example:</strong><em>{definition.example}</em>
+            <br/>
+            <strong>Synonyms:</strong>
               <Synonyms synonyms={definition.synonyms} />
-              <Synonyms synonyms={props.meaning.synonyms} />
-            </p>
-            </div>
+          </p>
           </div>
         );
       })}
