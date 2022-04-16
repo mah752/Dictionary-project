@@ -5,25 +5,31 @@ import "./Meaning.css";
 const Meaning = (props) => {
   return (
     <div className="Meaning">
-      <h3>{props.meaning.partOfSpeech}</h3>
-<div className="synonyms">
-<Synonyms synonyms={props.meaning.synonyms} />
-  </div>
+      <h3 className="word">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
-        return (
-          <div key={index}>
-            <p>
-            <strong>Definition: </strong>{definition.definition}
-            <br/>
-            <strong>Example:</strong><em>{definition.example}</em>
-            <br/>
-            <strong>Synonyms:</strong>
-              <Synonyms synonyms={definition.synonyms} />
-          </p>
-          </div>
-        );
+        if (definition.example) {
+          return (
+            <div key={index}>
+              <p className="definition">
+                {definition.definition}
+                <br />
+                <em className="example">Example: "{definition.example}"</em>
+              </p>
+              <span>
+                <Synonyms synonyms={props.meaning.synonyms} />
+              </span>
+              <hr />
+            </div>
+          );
+        } else {
+          return (
+            <div key={index}>
+              <p className="definition">{definition.definition}</p>
+              <hr />
+            </div>
+          );
+        }
       })}
-      
     </div>
   );
 };

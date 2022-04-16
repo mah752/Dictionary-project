@@ -1,3 +1,5 @@
 ul {
-    list-style: none
+    list-style: none;
+    color: #EA9BDF;
+    font-weight: bold;
 }

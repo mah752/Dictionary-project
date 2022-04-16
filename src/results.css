@@ -1,3 +1,16 @@
-h2 {
-    font-size: 50px;
+.theword {
+    font-size: 60px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 60px;
+}
+
+.child {
+    align-items: flex-start;
 }

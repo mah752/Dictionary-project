@@ -1,3 +1,4 @@
+import React from "react";
 import Animation from "./Animation";
 import Dictionary from "./Dictionary";
 import diamonds from "./img/diamonds.png";

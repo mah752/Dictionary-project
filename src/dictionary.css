@@ -1,9 +1,24 @@
     h2 {
         text-align: center;
         color: #fafafa;
+        font-size: 30px;
     }
     
-    .form {
-        display: block;
+    form {
+        margin: 0 auto;
+        width: 400px;
+        border-radius: 25px;
+    }
+    
+    .btn {
+        border-radius: 25px;
+        background-color: #000046;
+        color: #EA9BDF;
+        font-weight: bold;
+    }
+    
+    .hint {
         text-align: center;
+        color: #2CB5E4;
+        font-weight: bold;
     }

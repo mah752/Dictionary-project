@@ -1,0 +1,14 @@
+.Phonetic {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: #EA9BDF;
+    margin: 20px;
+    padding: 10px;
+}
+
+audio.react-audio-player {
+    width: 150px;
+    color: #000046;
+    display: flex;
+}

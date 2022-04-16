@@ -26,14 +26,31 @@ const Dictionary = () => {
   }
   return (
     <div className="Dictionary">
-      <h2>Let's conjour up a definition for that word...</h2>
-      <div className="form">
-        <form onSubmit={Search}>
-          <input type="search" onChange={handleKeywordChange}></input>
+      <h2>Let's conjure up a definition</h2>
+      <form onSubmit={Search}>
+          <div className="d-flex">
+            <div className="flex-grow-1">
+              <input 
+                type="search"
+                onChange={handleKeywordChange}
+                className="form-control"
+                placeholder="Type a word..."
+              />
+            </div>
+            <div className="mx-1">
+              <button
+                value="Search"
+                className="btn mx-1 px-4  text-center"
+                type="submit"
+              >
+               Define
+              </button>
+            </div>
+          </div>
         </form>
-        <Results results={results}/>
+        <div className="hint">Suggested words: code, sunset, yoga...</div>
+      <Results results={results} />
       </div>
-    </div>
   );
 }
 

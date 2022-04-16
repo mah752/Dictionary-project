@@ -1,37 +1,36 @@
 import React from 'react';
 import Phonetic from './Phonetic';
 import Meaning from "./Meaning";
+import "./results.css";
 //import Synonyms from "./Synonyms";
 
-const Results = (props) => {
+export default function Results(props) {
   if (props.results) {
+     if (props.results) {
     return (
       <div className="Results">
-        <section>
-          <h2>{props.results.word}</h2>
-          {props.results.phonetics.map(function (phonetic, index) {
+        <section className="parent">
+             <div className="child"> <h2 className="theword">{props.results.word}</h2></div>
+             <div className="child"> {props.results.phonetics.map(function(phonetic, index) {
+                return (
+                     <div key={index}>
+                    <Phonetic phonetic={phonetic} /></div>
+                );
+              })}</div>
+        </section>
+        <div className="definitions-content">
+          {props.results.meanings.map(function(meaning, index) {
             return (
               <div key={index}>
-                <Phonetic phonetic={phonetic} />
+                <Meaning meaning={meaning} />
               </div>
             );
           })}
-        </section>
-
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <section key={index}>
-              {" "}
-              <Meaning meaning={meaning} />
-            </section>
-          );
-        })}
-        
+        </div>
       </div>
     );
   } else {
     return null;
   }
-};
-
-export default Results
+}
+}
