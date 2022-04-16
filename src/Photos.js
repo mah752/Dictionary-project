@@ -14,7 +14,7 @@ export default function Photos(props) {
                     className="img-fluid"
                     alt={photo.alt}
                   />
-                </a>
+                
               
             );
           })}
