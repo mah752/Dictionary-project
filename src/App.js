@@ -18,26 +18,28 @@ function App() {
         </header>
         <Animation />
         <main>
-          <Dictionary/>
-          <img className="gem" src={gem} alt="" />
+          <Dictionary defaultKeyword="warlock" />
         </main>
         <footer>
-          <p>Opensource and coded by</p>{" "}
-          <a href="https://github.com/mah752/Dictionary-project">
-            Maryan Hussein
-          </a>{" "}
           <p>
-            animation from{" "}
+            {" "}
+            Opensource and coded by{" "}
+            <a href="https://github.com/mah752/Dictionary-project">
+              Maryan Hussein. {" "}
+            </a></p>
+            <p>
+            Animation from{" "}
             <a href="https://lottiefiles.com/73219-nostradamus">
               Lottie Animations by Afshin Tayebi
             </a>{" "}
-            and images from{" "}
+            and background icons from{" "}
             <a href="https://www.figma.com/community/file/1079690264559560037">
               {" "}
               diamond Icons by Lilly
             </a>
           </p>
         </footer>
+        <br />
       </div>
     </div>
   );

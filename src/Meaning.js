@@ -15,7 +15,7 @@ const Meaning = (props) => {
           return (
             <div key={index}>
               <p className="definition">
-                {definition.definition}
+                Definition: {definition.definition}
                 <br />
                 <em className="example">Example: "{definition.example}"</em>
               </p>
