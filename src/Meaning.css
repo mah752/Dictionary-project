@@ -14,3 +14,8 @@
     /*.synonyms {
         border: 2px solid #ffffff;
     }*/
+    
+    .word {
+        color: #2CB5E4;
+        font-weight: bold;
+    }

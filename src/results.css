@@ -11,7 +11,16 @@
     justify-content: center;
 }
 
-.child {
+.child1 {
+    align-items: flex-start;
+    margin: 50px;
+    padding: 0px 20px;
+    background: conic-gradient( from 193.61deg at 46.18% 51.15%, #14665e -49.41deg, #631bbe 10.44deg, #0d4b40 157.82deg, #fe54bc 220.83deg, #262592 267.11deg, #0b5f57 310.59deg, #631bbe 370.44deg);
+    box-shadow: 40.6316px 40.6316px 81.2632px #02060a;
+    border-radius: 25px;
+}
+
+child2 {
     align-items: flex-start;
     margin: 50px;
     padding: 0px 20px;

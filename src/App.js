@@ -18,7 +18,7 @@ function App() {
         </header>
         <Animation />
         <main>
-          <Dictionary />
+          <Dictionary/>
           <img className="gem" src={gem} alt="" />
         </main>
         <footer>

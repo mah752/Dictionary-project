@@ -1,14 +1,22 @@
 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     list-style: none;
     color: #EA9BDF;
     font-weight: bold;
-    list-style: none;
-    padding: 30px 20px;
-    margin: 0 auto;
+    margin: 5px;
 }
 
 li {
-    display: inline;
+    align-items: center;
     margin: 10px;
     border-radius: 25px;
+    color: #EA9BDF;
 }
+
+
+/*.syn {
+    max-width: 300px;
+}*/
