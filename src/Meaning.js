@@ -6,6 +6,7 @@ const Meaning = (props) => {
   return (
     <div className="Meaning">
       <h3 className="word">{props.meaning.partOfSpeech}</h3>
+<Synonyms synonyms={props.meaning.synonyms} />
       {props.meaning.definitions.map(function (definition, index) {
         if (definition.example) {
           return (
@@ -15,9 +16,7 @@ const Meaning = (props) => {
                 <br />
                 <em className="example">Example: "{definition.example}"</em>
               </p>
-              <span>
-                <Synonyms synonyms={definition.synonyms} />
-              </span>
+              
               <hr />
             </div>
           );
