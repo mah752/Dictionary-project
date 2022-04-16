@@ -2,15 +2,22 @@
     font-size: 60px;
     font-weight: bold;
     align-items: center;
+    color: #EA9BDF;
 }
 
 .parent {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px 60px;
 }
 
 .child {
     align-items: flex-start;
+    margin: 50px;
+    padding: 0px 20px;
+}
+
+.definitions-content {
+    border: 2px solid #ffffff;
+    border-radius: 25px;
 }

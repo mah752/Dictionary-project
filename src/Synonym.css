@@ -2,4 +2,13 @@ ul {
     list-style: none;
     color: #EA9BDF;
     font-weight: bold;
+    list-style: none;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    border-radius: 25px;
 }
