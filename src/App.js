@@ -2,7 +2,7 @@ import React from "react";
 import Animation from "./Animation";
 import Dictionary from "./Dictionary";
 import diamonds from "./img/diamonds.png";
-import gem from "./img/gem.png";
+//import gem from "./img/gem.png";
 import planets from "./img/planets.png"
 import "./App.css";
 

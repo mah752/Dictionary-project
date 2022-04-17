@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 import Results from "./Results";
-import axios from 'axios';
+import axios from "axios";
 import Photos from "./Photos";
 import "./dictionary.css";
-
 
 export default function Dictionary(props) {
   let [Keyword, setKeyword] = useState(props.defaultKeyword);
@@ -58,12 +57,10 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">
-            suggested words: magic, wizard, spell...
-          </div>
-        </section> 
+          <div className="hint">suggested words: magic, wizard, spell...</div>
+        </section>
         <Results results={results} />
-       <Photos photos={photos} />
+        <Photos photos={photos} />
       </div>
     );
   } else {

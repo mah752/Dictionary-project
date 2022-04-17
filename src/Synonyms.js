@@ -5,12 +5,12 @@ import "./Synonym.css";
 const Synonyms = (props) => {
   if (props.synonyms) {
     return (
-      <div className="syn"><ul className="Synonyms">
+      <ul className="Synonyms">
       
         {props.synonyms.map(function (synonym, index) {
-          return <li key={index}>{synonym}</li>;
+          return <div className="syn"><li key={index}>{synonym}</li></div>;
         })}
-      </ul></div>
+      </ul>
     );
   } else {
     return null;
