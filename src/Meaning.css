@@ -10,6 +10,15 @@
     
     .definition {
         font-size: 15px;
+        margin-top: 5px;
+    }
+    
+    .definition span {
+        font-size: 15px;
+        margin-top: 5px;
+        font-weight: bold;
+        margin-top: 5px;
+        color: #2CB5E4;
     }
     /*.synonyms {
         border: 2px solid #ffffff;

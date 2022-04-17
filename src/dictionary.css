@@ -5,9 +5,15 @@
         }
         
         form {
-            margin: 20px 300px;
-            width: 400px;
+            margin: 20px 130px;
             border-radius: 25px;
+        }
+        
+        input {
+            width: 500px;
+            height: 40px;
+            border-radius: 25px;
+            text-align: center;
         }
         
         .hint {

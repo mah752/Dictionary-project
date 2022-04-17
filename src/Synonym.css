@@ -1,22 +1,15 @@
-ul {
-    display: block;
-    list-style: none;
-    align-items: center;
-    color: #EA9BDF;
-    font-weight: bold;
-    margin: 5px;
-}
-
-li {
-    display: inline;
-    align-items: center;
-    justify-content: space-around;
-    margin: 10px;
-    border-radius: 25px;
-    color: #EA9BDF;
-}
-
-
-/*.syn {
+        ul {
+            display: block;
+            list-style: none;
+            color: #EA9BDF;
+            font-weight: bold;
+            margin: 0 auto;
+            margin-left: -40px;
+        }
+        
+        li {
+            align-items: center;
+        }
+        /*.syn {
     max-width: 300px;
 }*/

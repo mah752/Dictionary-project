@@ -18,16 +18,17 @@ function App() {
         </header>
         <Animation />
         <main>
-          <Dictionary defaultKeyword="warlock" />
+          <Dictionary defaultKeyword="lucky" />
         </main>
         <footer>
           <p>
             {" "}
             Opensource and coded by{" "}
             <a href="https://github.com/mah752/Dictionary-project">
-              Maryan Hussein. {" "}
-            </a></p>
-            <p>
+              Maryan Hussein.{" "}
+            </a>
+          </p>
+          <p>
             Animation from{" "}
             <a href="https://lottiefiles.com/73219-nostradamus">
               Lottie Animations by Afshin Tayebi
